@@ -97,8 +97,7 @@ The AllPrintings file contains comprehensive information about all Magic: The Ga
   Ensure that your Neo4j instance is running and the URI, username, and password in your `.env` file are correct.
 
 - **Neo4j Free Tier Scaling Issues**: 
-  Neo4j Free Tier allows for 200000 Nodes. Some sources estimate that there are around 90,000 unique MTG cards when you include reprints, variants, and "out of game" card
-  Scaling issues arise when creating relationships for each unique card as Neo4j allows for 400000 Relations.
+  Neo4j Free Tier allows for 200000 Nodes. Some sources estimate that there are around 90,000 unique MTG cards when you include reprints, variants, and "out of game" cards. Scaling issues arise when creating relationships for each unique card as Neo4j allows for 400000 Relations.
 
 - **Memory Limitations**:
   If you're working with extremely large JSON files, ensure that your system has sufficient memory, or consider streaming the data in smaller chunks if necessary.
