@@ -112,4 +112,4 @@ You can download the AllPrintings JSON file from [MTGJSON's website](https://mtg
 
 ---
 
-This script is highly customizable and can be adapted to various use cases involving large-scale Magic: The Gathering data migration into a Neo4j graph database.
+This script is highly customizable and can be adapted to various use cases involving large-scale data migration from json files into a Neo4j graph database.
